@@ -1,6 +1,6 @@
-count = 0
-number = int(input("Enter a number "))
-while (number > 0):
-number = number//10
-count = count + 1
-print ("Total number of digits : ",count)
+number = int(input(" Please Enter any Positive Integer : "))
+exponent = int(input(" Please Enter Exponent Value : "))
+power = 1
+for i in range(1, exponent + 1):
+power = power * number
+print("The Result of {0} Power {1} = {2}".format(number, exponent, power))

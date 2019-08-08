@@ -1,5 +1,7 @@
-a=int(input())
-if(1<=a<=10000):
-print("Positive")
-else:
-print("Negative")
+n=int(input())
+if(n>0):
+    print("Positive")
+if(n<0):
+    print("Negative")
+if(n==0):
+    print("Zero")

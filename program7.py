@@ -1,9 +1,4 @@
-my_string = 'Hello'
-print(my_string)
-my_string = "Hello"
-print(my_string)
-my_string = '''Hello'''
-print(my_string)
-my_string = """Hello, welcome to
-the world of Python"""
-print(my_string)
+n=int(input())
+a="Hello"
+for x in range(n):
+    print(a)
